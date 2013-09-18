@@ -1,0 +1,16 @@
+{% extends "shared/layout.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { background-color: #ffff99; }
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="page-header">
+		<h1>Prototyping Skeleton</h1>
+	</div>
+	<p class="lead">A setup in GAE for <span class="important">prototyping</span> using Jinja2 and Twitter Bootstrap</p>
+{% endblock %}
+
+

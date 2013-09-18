@@ -1,0 +1,14 @@
+{% extends "shared/layout.html" %}
+{% block title %}Subpage{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { background-color: #99ffff; }
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="page-header">
+		<h1>Second example</h1>
+	</div>
+	<p class="lead">Another example of page in <span class="important">Skelotype</span></p>
+{% endblock %}
